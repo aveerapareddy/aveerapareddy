@@ -1,3 +1,38 @@
-<h1>Hi There, I am <a  href="https://aveerapareddy.github.io/" target="_blank">Akhilesh Veerapareddy</a></h1>
+# 👋 Hi, I'm Akhilesh
 
-I have been working as a Full Stack Developer for over 10 years since graduated (B.E) from Anna University, Chennai in the year 2015. And as a software developer I've racked up experience of a wide variety of application development especially in web technologies.
+🚀 **Senior Software Engineer** | Full Stack (Java, Angular, Python) → AI/ML + MLOps Engineer  
+🎓 Currently enrolled in **Stanford AI & Machine Learning Professional Program**  
+🧠 Building intelligent, scalable systems at the intersection of software engineering and AI
+
+---
+
+## 🔥 My Projects
+
+I'm currently building 5 original, production-ready projects:
+
+- 🔍 [`refactograph-ai`](https://github.com/aveerapareddy/refactograph-ai)  
+  _AI-powered codebase knowledge graph + GPT-based refactoring assistant_
+
+- ⚙️ [`pipeforge-mlops`](https://github.com/aveerapareddy/pipeforge-mlops)  
+  _Orchestrator for ML workflows using Databricks + MLflow + CI/CD_
+
+- 💰 [`smartspend-ai`](https://github.com/aveerapareddy/smartspend-ai)  
+  _Receipt OCR + ML categorization + spend forecasting (real-world finance)_
+
+- 🖼 [`visionsearch-multimodal`](https://github.com/aveerapareddy/visionsearch-multimodal)  
+  _Multi-modal recommendation engine using image/text embeddings_
+
+- 🌊 [`openrelief-ai`](https://github.com/aveerapareddy/openrelief-ai)  
+  _AI-powered disaster alert system using weather/fire/flood data sources_
+
+---
+
+## 📫 Connect with Me
+
+- LinkedIn: [linkedin.com/in/aveerapareddy](www.linkedin.com/in/akhil-reddy94)  
+- Portfolio : [https://akhilesh.dev](https://veerapareddy.dev/)
+
+---
+
+⚡ _I push code daily — follow along as I transition into full-time AI/ML + MLOps engineering._
+
