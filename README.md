@@ -1,12 +1,12 @@
-# 👋 Hi, I'm Akhilesh
+#  Hi, I'm Akhilesh
 
-🚀 **Senior Software Engineer** | Full Stack (Java, Angular, Python) → AI/ML + MLOps Engineer  
+**Senior Software Engineer** | Full Stack (Java, Angular, Python) → AI/ML + MLOps Engineer  
 🎓 Currently enrolled in **Stanford AI & Machine Learning Professional Program**  
-🧠 Building intelligent, scalable systems at the intersection of software engineering and AI
+Building intelligent, scalable systems at the intersection of software engineering and AI
 
 ---
 
-## 🔥 My Projects
+##  My Projects
 
 I'm currently building 5 original, production-ready projects:
 
