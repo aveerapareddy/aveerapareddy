@@ -10,6 +10,9 @@ Building intelligent, scalable systems at the intersection of software engineeri
 
 I'm currently building 5 original, production-ready projects:
 
+- 💬 [`personal-ai-assistant`](https://github.com/aveerapareddy/personal-ai-assistant)  
+  _AI-powered productivity assistant with chain-of-thought reasoning, interactive chat, CSV data analysis, and intelligent task planning — built end-to-end with FastAPI, React (TypeScript), and OpenAI integration._
+
 - 🔍 [`refactograph-ai`](https://github.com/aveerapareddy/refactograph-ai)  
   _AI-powered codebase knowledge graph + GPT-based refactoring assistant_
 
