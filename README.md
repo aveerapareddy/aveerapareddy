@@ -1,72 +1,71 @@
-## Hi, I'm Akhilesh
+# Akhilesh Veerapareddy
 
-**AI/ML Engineer | Full Stack Engineer (Python, Angular, Java) | MLOps & Cloud**
+Applied AI / MLOps Engineer focused on building production-grade AI systems across LLM applications, data platforms, and intelligent automation.
 
-I build intelligent, scalable systems combining **Machine Learning, LLMs, Deep Learning, RAG architectures, Vector Search, and end-to-end software engineering**.  
-With 10+ years of full-stack engineering and cloud experience, I’m transitioning into a full-time **AI/ML Engineering** role through hands-on, production-grade AI projects.
+I have 10+ years of engineering experience across full-stack development, cloud platforms, data systems, and AI-powered products. My current focus is on Applied AI, including RAG systems, NL-to-SQL, agentic workflows, MLOps, and robotics-oriented autonomy systems.
 
-Core Skills: **PyTorch • Transformers • LLM Fine-Tuning (QLoRA) • RAG • Vector Databases • MLFlow • FastAPI • Docker • Databricks • Azure/GCP**  
-🎓 Completed Stanford **AI & Machine Learning Professional Program**
+## What I Work On
 
----
+- LLM-powered applications
+- Retrieval-Augmented Generation (RAG)
+- NL-to-SQL systems
+- Multi-agent AI workflows
+- MLOps and model serving
+- Data pipelines and cloud-native platforms
+- Robotics simulation and autonomous decision systems
 
-## My AI/ML Projects (In Progress – Production-Ready)
+## Selected Projects
 
-The following **5 major projects** represent the full spectrum of AI/ML engineering—  
-LLM fine-tuning → retrieval systems → deep learning → classical ML → MLOps + deployment.
+### AutonomyOS
+AI-powered robotics simulation platform for mission planning, perception, autonomous navigation, telemetry, replay, and benchmarking.
 
----
+### Enterprise RAG Platform
+Production-style retrieval system with ingestion pipelines, chunking, embeddings, vector search, evaluation, and observability.
 
-### **1. llm-finetuner-qlora**  
-**Domain-Specific LLM Fine-Tuning using QLoRA (Llama/Mistral models)**  
-Building a memory-efficient LLM fine-tuning system using **4-bit quantization and PEFT adapters**.  
-Includes dataset processing, training/evaluation pipelines, and **FastAPI GPU inference server**, with the final model published on HuggingFace.
+### NL-to-SQL AI Analyst
+Natural language analytics platform that converts user questions into validated SQL and structured insights.
 
-**Tech:** PyTorch, Transformers, QLoRA, PEFT, Tokenizers, FastAPI, GPUs
+### Agentic AI Platform
+Multi-agent orchestration system with planning, tool use, memory, and execution workflows.
 
----
+### MLOps Production Pipeline
+End-to-end ML platform covering training, experiment tracking, model registry, deployment, and monitoring.
 
-### **2. enterprise-rag-engine**  
-**End-to-End RAG (Retrieval-Augmented Generation) System with Vector Search**  
-Full retrieval pipeline including **document ingestion, embeddings, FAISS indexing, top-k retrieval, metadata filtering, and re-ranking**.  
-Integrated with an LLM for high-accuracy enterprise Q&A, plus evaluation metrics for retrieval and answer quality.
+## Core Stack
 
-**Tech:** FAISS, Chroma, Embeddings, Transformers, RAG, Re-Ranking, FastAPI
+- Python
+- FastAPI
+- Databricks
+- GCP
+- Azure
+- MLflow
+- LangGraph
+- PyTorch
+- Apache Airflow
+- Apache Kafka
+- PostgreSQL
+- BigQuery
+- Vector Search
+- Docker
+- Kubernetes
 
----
+## Current Focus
 
-### **3. pytorch-deeplearning-models**  
-**Custom Deep Learning Models (CNN / LSTM / Transformer) Implemented from Scratch**  
-Building deep learning architectures using **pure PyTorch**, including training loops, datasets, optimizers, checkpointing, and GPU acceleration.  
-Focus areas: image classification, time-series forecasting, and text modeling.
+I am currently building portfolio-grade systems in:
+- Applied AI
+- LLM systems
+- Robotics simulation
+- MLOps
+- production AI architecture
 
-**Tech:** PyTorch, CNNs, LSTMs, Transformers, Dataloaders, GPU Training
+## Background
 
----
+- 10+ years in software engineering
+- Full-stack engineering background
+- Consulting experience across enterprise platforms
+- Built AI, data, and cloud systems in real-world production environments
 
-### **4. mlops-pipeline-e2e**  
-**End-to-End MLOps Pipeline: Training → Registry → Deployment → Monitoring**  
-A complete ML operations workflow using **MLflow + Docker + CI/CD + Cloud deployment**.  
-Supports training orchestration, model versioning, API serving, automated updates, and drift/latency monitoring dashboards.
+## Connect
 
-**Tech:** MLFlow, Docker, GitHub Actions, FastAPI, Azure/GCP, Feature Engineering
-
----
-
-### **5. classical-ml-system**  
-**Real-World Predictive ML System (Churn / Fraud / Credit Risk)**  
-A full classical ML pipeline focusing on **data cleaning, feature engineering, model benchmarking, hyperparameter tuning, and SHAP explainability**.  
-Demonstrates mastery of foundational ML required in all interviews.
-
-**Tech:** Scikit-Learn, XGBoost, Pandas, SHAP, Metrics, Feature Engineering
-
----
-
-## Connect with Me
-
-- **LinkedIn:** https://www.linkedin.com/in/akhileshv94/
-- **Portfolio:** https://veerapareddy.dev  
-
----
-
-⚡ I push code daily — follow along as I build these production-ready LLM, RAG, Deep Learning, and MLOps systems and transition into full-time **AI/ML Engineering**.
+- LinkedIn: https://linkedin.com/in/akhileshv94
+- GitHub: https://github.com/aveerapareddy
