@@ -1,62 +1,66 @@
 # Akhilesh Veerapareddy
 
-Applied AI / MLOps Engineer focused on building production-grade AI systems across LLM applications, data platforms, and intelligent automation.
+Applied AI / MLOps Engineer building production-grade AI systems across LLM applications, data platforms, and intelligent automation.
 
-I have 10+ years of engineering experience across full-stack development, cloud platforms, data systems, and AI-powered products. My current focus is on Applied AI, including RAG systems, NL-to-SQL, agentic workflows, MLOps, and robotics-oriented autonomy systems.
+I have 10+ years of engineering experience across full-stack development, distributed systems, cloud platforms, and AI-powered products. My current focus is Applied AI systems including Retrieval-Augmented Generation (RAG), NL-to-SQL analytics, agentic workflows, MLOps platforms, and robotics-oriented autonomy systems.
 
-## What I Work On
+---
+
+## Areas of Work
 
 - LLM-powered applications
 - Retrieval-Augmented Generation (RAG)
-- NL-to-SQL systems
-- Multi-agent AI workflows
+- NL-to-SQL data analytics
+- Multi-agent AI systems
 - MLOps and model serving
 - Data pipelines and cloud-native platforms
-- Robotics simulation and autonomous decision systems
+- Robotics simulation and autonomy systems
+
+---
 
 ## Selected Projects
 
-### AutonomyOS
-AI-powered robotics simulation platform for mission planning, perception, autonomous navigation, telemetry, replay, and benchmarking.
+### [AutonomyOS](https://github.com/aveerapareddy/AutonomyOS)
 
-### Enterprise RAG Platform
-Production-style retrieval system with ingestion pipelines, chunking, embeddings, vector search, evaluation, and observability.
+AI-powered robotics simulation platform for mission planning, perception, navigation, telemetry, replay, and benchmarking of autonomous systems.
 
-### NL-to-SQL AI Analyst
-Natural language analytics platform that converts user questions into validated SQL and structured insights.
+### [Enterprise RAG Platform](https://github.com/aveerapareddy/enterprise-rag-platform)
 
-### Agentic AI Platform
-Multi-agent orchestration system with planning, tool use, memory, and execution workflows.
+Production-style Retrieval Augmented Generation system with document ingestion pipelines, embeddings, vector search, evaluation, and observability.
 
-### MLOps Production Pipeline
-End-to-end ML platform covering training, experiment tracking, model registry, deployment, and monitoring.
+### [NL-to-SQL AI Analytics](https://github.com/aveerapareddy/nl2sql-ai-analytics)
+
+Natural language analytics platform that converts user questions into validated SQL queries and structured insights.
+
+### [Agentic AI Platform](https://github.com/aveerapareddy/agentic-ai-platform)
+
+Multi-agent orchestration system supporting planning, reasoning, tool use, and autonomous AI workflows.
+
+### [MLOps Production Pipeline](https://github.com/aveerapareddy/mlops-production-pipeline)
+
+End-to-end ML platform covering training pipelines, experiment tracking, model registry, deployment, and monitoring.
+
+---
 
 ## Core Stack
 
-- Python
-- FastAPI
-- Databricks
-- GCP
-- Azure
-- MLflow
-- LangGraph
-- PyTorch
-- Apache Airflow
-- Apache Kafka
-- PostgreSQL
-- BigQuery
-- Vector Search
-- Docker
-- Kubernetes
+Python • FastAPI • Databricks • GCP • Azure • MLflow • LangGraph • PyTorch  
+Apache Airflow • Apache Kafka • PostgreSQL • BigQuery • Vector Search  
+Docker • Kubernetes
+
+---
 
 ## Current Focus
 
-I am currently building portfolio-grade systems in:
-- Applied AI
-- LLM systems
+Currently building portfolio-grade systems in:
+
+- Applied AI systems
+- LLM infrastructure
 - Robotics simulation
-- MLOps
+- MLOps platforms
 - production AI architecture
+
+---
 
 ## Background
 
@@ -65,7 +69,12 @@ I am currently building portfolio-grade systems in:
 - Consulting experience across enterprise platforms
 - Built AI, data, and cloud systems in real-world production environments
 
+---
+
 ## Connect
 
-- LinkedIn: https://linkedin.com/in/akhileshv94
-- GitHub: https://github.com/aveerapareddy
+LinkedIn:  
+https://linkedin.com/in/akhileshv94
+
+GitHub:  
+https://github.com/aveerapareddy
