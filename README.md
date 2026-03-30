@@ -1,80 +1,143 @@
 # Akhilesh Veerapareddy
 
-Applied AI / MLOps Engineer building production-grade AI systems across LLM applications, data platforms, and intelligent automation.
+Applied AI Systems Engineer building production-grade intelligent systems — from agentic AI applications to scalable infrastructure, MLOps platforms, and autonomous systems.
 
-I have 10+ years of engineering experience across full-stack development, distributed systems, cloud platforms, and AI-powered products. My current focus is Applied AI systems including Retrieval-Augmented Generation (RAG), NL-to-SQL analytics, agentic workflows, MLOps platforms, and robotics-oriented autonomy systems.
+Building AI systems at the intersection of reasoning, infrastructure, and real-world autonomy.
 
 ---
 
-## Areas of Work
+## Portfolio
 
-- LLM-powered applications
-- Retrieval-Augmented Generation (RAG)
-- NL-to-SQL data analytics
-- Multi-agent AI systems
-- MLOps and model serving
-- Data pipelines and cloud-native platforms
-- Robotics simulation and autonomy systems
+🌐 https://veerapareddy.dev/
+
+---
+
+## What I Build
+
+* Agentic AI systems (planning, reasoning, tool orchestration)
+* LLM-powered applications and intelligent workflows
+* GPU inference and model serving platforms
+* MLOps and ML platform infrastructure
+* Real-time decision systems and distributed pipelines
+* Autonomous robotics simulation and control systems
 
 ---
 
 ## Selected Projects
 
-### [AutonomyOS](https://github.com/aveerapareddy/AutonomyOS)
-
-AI-powered robotics simulation platform for mission planning, perception, navigation, telemetry, replay, and benchmarking of autonomous systems.
-
-### [Enterprise RAG Platform](https://github.com/aveerapareddy/enterprise-rag-platform)
-
-Production-style Retrieval Augmented Generation system with document ingestion pipelines, embeddings, vector search, evaluation, and observability.
-
-### [NL-to-SQL AI Analytics](https://github.com/aveerapareddy/nl2sql-ai-analytics)
-
-Natural language analytics platform that converts user questions into validated SQL queries and structured insights.
-
 ### [Agentic AI Platform](https://github.com/aveerapareddy/agentic-ai-platform)
 
-Multi-agent orchestration system supporting planning, reasoning, tool use, and autonomous AI workflows.
+Unified enterprise AI system supporting planning, reasoning, and tool orchestration across structured and unstructured data.
 
-### [MLOps Production Pipeline](https://github.com/aveerapareddy/mlops-production-pipeline)
+* Multi-agent orchestration (planning + execution)
+* Tool integration (SQL, retrieval, APIs)
+* Context management and memory
+* Streaming responses and workflow automation
 
-End-to-end ML platform covering training pipelines, experiment tracking, model registry, deployment, and monitoring.
+→ Combines RAG, NL-to-SQL, and decision workflows into a single production system
+
+---
+
+### GPU Inference Platform (In Progress)
+
+Distributed LLM inference system with dynamic batching, multi-model routing, GPU utilization optimization, and streaming APIs.
+
+* High-throughput inference (batching + scheduling)
+* Multi-model routing (latency vs accuracy tradeoffs)
+* OpenAI-compatible API layer
+* Kubernetes-based scaling and deployment
+
+→ Focus: AI infrastructure, performance, and production-scale serving
+
+---
+
+### ML Platform / MLOps Control Plane
+
+End-to-end ML platform covering training pipelines, experiment tracking, model registry, deployment workflows, and monitoring.
+
+* Experiment tracking and versioning
+* Model registry and lifecycle management
+* CI/CD for training and deployment
+* Monitoring and retraining pipelines
+
+→ Focus: platform engineering and production ML systems
+
+---
+
+### Streaming AI Decision Engine
+
+Real-time event-driven system for low-latency inference, feature computation, and automated actions.
+
+* Event ingestion (Kafka / PubSub)
+* Online feature computation
+* Low-latency model inference
+* Action orchestration and triggers
+
+→ Focus: distributed systems and real-time AI
+
+---
+
+### Distributed Data Processing Engine
+
+DAG-based execution engine for parallel data processing, scheduling, and fault-tolerant pipeline execution.
+
+* Task scheduling and execution graph
+* Partitioning and parallel processing
+* Retry and fault recovery
+* Pipeline orchestration
+
+→ Focus: core systems and distributed compute
+
+---
+
+### [AutonomyOS](https://github.com/aveerapareddy/AutonomyOS)
+
+AI-powered robotics platform for mission planning, perception, navigation, telemetry, replay, and benchmarking of autonomous systems.
+
+* Mission planning and execution
+* Path planning and navigation (A*)
+* Simulation environment and telemetry
+* Replay and scenario evaluation
+
+→ Focus: embodied AI and system-level autonomy
 
 ---
 
 ## Core Stack
 
-Python • FastAPI • Databricks • GCP • Azure • MLflow • LangGraph • PyTorch  
-Apache Airflow • Apache Kafka • PostgreSQL • BigQuery • Vector Search  
+Python • FastAPI • PyTorch • LangGraph
+GCP • Databricks • BigQuery • PostgreSQL
+Apache Kafka • Airflow • MLflow
 Docker • Kubernetes
 
 ---
 
 ## Current Focus
 
-Currently building portfolio-grade systems in:
-
-- Applied AI systems
-- LLM infrastructure
-- Robotics simulation
-- MLOps platforms
-- production AI architecture
+* Agentic AI systems and orchestration
+* AI infrastructure (GPU inference, model serving)
+* ML platforms and MLOps systems
+* Distributed systems and real-time pipelines
+* Robotics and embodied AI
 
 ---
 
 ## Background
 
-- 10+ years in software engineering
-- Full-stack engineering background
-- Consulting experience across enterprise platforms
-- Built AI, data, and cloud systems in real-world production environments
+* 10+ years in software engineering
+* Full-stack + backend + data systems
+* Built and deployed production systems across AI, cloud, and enterprise platforms
+* Strong focus on system design, scalability, and real-world impact
 
 ---
 
 ## Connect
 
-LinkedIn:  
+LinkedIn
 https://linkedin.com/in/akhileshv94
 
-GitHub:  
+GitHub
 https://github.com/aveerapareddy
+
+Portfolio
+https://veerapareddy.dev/
