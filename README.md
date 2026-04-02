@@ -14,7 +14,7 @@ Building AI systems at the intersection of reasoning, infrastructure, and real-w
 
 ## What I Build
 
-* Agentic AI systems (planning, reasoning, tool orchestration)
+* Agentic execution systems with explicit workflows, bounded agents, and policy-aware orchestration  
 * LLM-powered applications and intelligent workflows
 * GPU inference and model serving platforms
 * MLOps and ML platform infrastructure
@@ -27,14 +27,15 @@ Building AI systems at the intersection of reasoning, infrastructure, and real-w
 
 ### [Agentic AI Platform](https://github.com/aveerapareddy/agentic-ai-platform)
 
-Unified enterprise AI system supporting planning, reasoning, and tool orchestration across structured and unstructured data.
+Production-grade multi-agent execution platform for enterprise workflows with explicit execution semantics, policy enforcement, and full traceability.
 
-* Multi-agent orchestration (planning + execution)
-* Tool integration (SQL, retrieval, APIs)
-* Context management and memory
-* Streaming responses and workflow automation
+* Durable, replayable workflows with step-level execution and failure handling  
+* Bounded agents orchestrating retrieval, NL-to-SQL, observability queries, and external tools via typed contracts  
+* Policy-aware action layer with approval gates, audit logs, and controlled side effects  
+* End-to-end traceability across steps, tool calls, validation, and decisions  
+* Mukti: post-execution analysis system for identifying failure patterns and driving controlled improvements  
 
-→ Combines RAG, NL-to-SQL, and decision workflows into a single production system
+→ Built as a system, not a model wrapper—focused on execution, reliability, and governance over raw LLM capability
 
 ---
 
