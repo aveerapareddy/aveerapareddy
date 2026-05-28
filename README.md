@@ -65,32 +65,6 @@ End-to-end ML platform covering training pipelines, experiment tracking, model r
 
 ---
 
-### Streaming AI Decision Engine
-
-Real-time event-driven system for low-latency inference, feature computation, and automated actions.
-
-* Event ingestion (Kafka / PubSub)
-* Online feature computation
-* Low-latency model inference
-* Action orchestration and triggers
-
-→ Focus: distributed systems and real-time AI
-
----
-
-### Distributed Data Processing Engine
-
-DAG-based execution engine for parallel data processing, scheduling, and fault-tolerant pipeline execution.
-
-* Task scheduling and execution graph
-* Partitioning and parallel processing
-* Retry and fault recovery
-* Pipeline orchestration
-
-→ Focus: core systems and distributed compute
-
----
-
 ### [AutonomyOS](https://github.com/aveerapareddy/AutonomyOS)
 
 AI-powered robotics platform for mission planning, perception, navigation, telemetry, replay, and benchmarking of autonomous systems.
