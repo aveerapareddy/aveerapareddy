@@ -25,7 +25,7 @@ Building AI systems at the intersection of reasoning, infrastructure, and real-w
 
 ## Selected Projects
 
-### [Agentic AI Platform](https://github.com/aveerapareddy/agentic-ai-platform)
+### [Agentic AI Platform](https://github.com/aveerapareddy/agentic-ai-platform) *(Completed)*
 
 Production-grade multi-agent execution platform for enterprise workflows with explicit execution semantics, policy enforcement, and full traceability.
 
