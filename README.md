@@ -39,33 +39,35 @@ Production-grade multi-agent execution platform for enterprise workflows with ex
 
 ---
 
-### GPU Inference Platform (In Progress)
+### [GPU Inference Platform](https://github.com/aveerapareddy/gpu-inference-platform) *(In Progress)*
 
-Distributed LLM inference system with dynamic batching, multi-model routing, GPU utilization optimization, and streaming APIs.
+Production-oriented GPU inference platform focused on high-throughput LLM serving, continuous batching, request scheduling, multi-model routing, and serving observability.
 
-* High-throughput inference (batching + scheduling)
-* Multi-model routing (latency vs accuracy tradeoffs)
-* OpenAI-compatible API layer
-* Kubernetes-based scaling and deployment
+* Continuous batching scheduler for improving throughput and GPU utilization
+* Multi-model routing and failover policies based on latency, capacity, and availability
+* OpenAI-compatible streaming APIs with token-level response delivery
+* Request admission control, backpressure handling, and queue management
+* Performance benchmarking with latency, throughput, and GPU utilization analysis
 
-→ Focus: AI infrastructure, performance, and production-scale serving
-
----
-
-### ML Platform / MLOps Control Plane
-
-End-to-end ML platform covering training pipelines, experiment tracking, model registry, deployment workflows, and monitoring.
-
-* Experiment tracking and versioning
-* Model registry and lifecycle management
-* CI/CD for training and deployment
-* Monitoring and retraining pipelines
-
-→ Focus: platform engineering and production ML systems
+→ Built to explore the operational challenges of large-scale model serving, including scheduling, latency optimization, observability, and resource efficiency
 
 ---
 
-### [AutonomyOS](https://github.com/aveerapareddy/AutonomyOS)
+### [ModelOps Control Plane](https://github.com/aveerapareddy/modelops-control-plane) *(In Progress)*
+
+End-to-end ML lifecycle platform covering training orchestration, experiment tracking, model promotion, deployment workflows, monitoring, drift detection, retraining, and rollback.
+
+* Experiment tracking, model versioning, and reproducible training workflows
+* Model registry with promotion, approval, and rollback lifecycle management
+* Drift detection and automated retraining pipelines driven by statistical monitoring
+* CI/CD workflows for model validation, deployment, and safe release management
+* Operational visibility across training, deployment, monitoring, and governance workflows
+
+→ Built to demonstrate production-grade ML platform engineering with a focus on lifecycle management, reliability, reproducibility, and operational control
+
+---
+
+### [AutonomyOS](https://github.com/aveerapareddy/AutonomyOS) *(On Hold)*
 
 AI-powered robotics platform for mission planning, perception, navigation, telemetry, replay, and benchmarking of autonomous systems.
 
