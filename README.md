@@ -1,53 +1,124 @@
-# Akhilesh Veerapareddy
+<p align="center">
+  <img src="assets/header.svg" alt="Akhilesh Veerapareddy — Senior AI Systems Engineer" width="100%">
+</p>
 
-**Senior AI Systems Engineer — LLM infrastructure, applied AI, distributed systems.**
-Dallas, TX · [veerapareddy.dev](https://veerapareddy.dev) · [LinkedIn](https://linkedin.com/in/akhileshv94) · akhileshveerapareddy@gmail.com
-
-I build AI systems past the prototype stage — where latency, reliability, cost, and observability are the engineering problem, not a follow-up ticket. Ten years in production systems: Java/Spring microservices, Kafka, Kubernetes; the last four on multi-agent orchestration, MCP-governed tool access, retrieval, and LLM evaluation.
-
-Currently lead architect of a statewide disaster-intelligence platform for Texas emergency management: LangGraph planner-supervisor agents over NL-to-SQL, document retrieval, weather, and geospatial tools, served through FastAPI and Databricks, with evaluation gates enforced on every release.
+<p align="center">
+  <a href="https://veerapareddy.dev"><img src="https://img.shields.io/badge/essays-veerapareddy.dev-6f9ceb?style=flat-square&labelColor=121216"></a>
+  <a href="https://linkedin.com/in/akhileshv94"><img src="https://img.shields.io/badge/linkedin-akhileshv94-6f9ceb?style=flat-square&labelColor=121216"></a>
+  <img src="https://img.shields.io/badge/focus-inference%20%C2%B7%20agents%20%C2%B7%20eval-8e8d88?style=flat-square&labelColor=121216">
+  <img src="https://img.shields.io/badge/open%20to-senior%20%2F%20staff-8e8d88?style=flat-square&labelColor=121216">
+</p>
 
 ---
 
-## What I work on
+I build AI systems **past the prototype stage** — where latency, reliability, cost, and observability are the engineering problem, not a follow-up ticket.
 
-**LLM infrastructure** — model serving, KV caching, continuous batching, quantization, distributed inference, request scheduling and admission control, inference benchmarking. PyTorch, vLLM, SGLang.
+Ten years in production systems (Java/Spring, Kafka, Kubernetes); the last four on agent orchestration, MCP-governed tool access, retrieval, and LLM evaluation. Now working a layer down: model serving, KV caching, continuous batching, quantization, distributed inference.
 
-**Applied AI systems** — LangGraph multi-agent orchestration, Model Context Protocol (FastMCP), RAG and hybrid retrieval, NL-to-SQL, guardrails, LLM evaluation (golden datasets, LLM-as-judge, grounding and faithfulness scoring, MLflow regression gates), LiteLLM.
+Currently lead architect of a **statewide disaster-intelligence platform** for Texas emergency management — analysts ask one question in English instead of querying five systems by hand.
 
-**Backend & distributed** — Python, Java, Go, Rust, TypeScript · FastAPI, Spring Boot, Node.js · Kafka, PostgreSQL, Redis · REST, gRPC, GraphQL · OAuth 2.1/OIDC, Keycloak, RBAC.
+<img src="assets/pipeline.svg" alt="Governed execution loop: plan, execute, validate, policy, approve" width="100%">
 
-**Data & platform** — Databricks, PySpark, Delta Lake, Unity Catalog, Airflow, BigQuery, Snowflake, H3 geospatial indexing · Kubernetes (GKE/EKS), Terraform, OpenTelemetry, Prometheus, Grafana.
+---
+
+## How I think about agents
+
+Most agent failures aren't model failures. They're missing boundaries. So the interesting work sits in the layers around the model:
+
+```mermaid
+flowchart LR
+    U([analyst question]) --> P[planner / supervisor]
+    P --> S[NL-to-SQL agent]
+    P --> R[retrieval agent]
+    P --> G[geospatial agent]
+    S & R & G --> M{{MCP gateway<br/>OAuth 2.1 · scopes · quotas}}
+    M --> D[(Delta Lake<br/>Unity Catalog)]
+    M --> V[(vector + keyword index)]
+    S & R & G --> Y[synthesis]
+    Y --> E[eval gate<br/>grounding · faithfulness]
+    E -->|pass| A([grounded answer])
+    E -->|fail| F[typed fallback]
+```
+
+Every arrow above is a place to enforce something: a scope, a schema, a budget, a score. That's the job.
 
 ---
 
 ## Projects
 
-### [Agentic AI Platform](https://github.com/aveerapareddy)
-Governed execution engine with explicit **plan → execute → validate → policy → approval** phases. Tool calls use typed contracts; every run is durable, traceable, and replayable. Schema-bounded NL-to-SQL runs parameterized and read-only, persisting query text, parameters, row counts, latency, and policy outcomes as auditable tool calls — with deterministic fallback and replay modes to backstop model failure.
-`Python · FastAPI · Pydantic · PostgreSQL · Angular · Docker`
+<table>
+<tr><td width="50%" valign="top">
 
-### [GPU Inference Platform](https://github.com/aveerapareddy)
-OpenAI-compatible serving control plane: admission control, queueing, multi-model routing, SSE streaming, and a custom continuous-batching scheduler. On a repeatable mock-backend benchmark that isolates scheduler behavior from GPU compute, continuous batching sustained **~1,335 req/s vs ~510 req/s unbatched (~2.6×)**, with scaling sweeps and rule-based bottleneck reports alongside the numbers.
-`Python · FastAPI · vLLM (optional) · OpenTelemetry · Prometheus`
+### ⚙ GPU Inference Platform
+OpenAI-compatible serving control plane — admission control, queueing, multi-model routing, SSE streaming, custom continuous-batching scheduler.
 
-### [AutonomyOS](https://github.com/aveerapareddy)
-Mission-to-execution autonomy pipeline: planning, metadata perception, inflated occupancy grids, A\* navigation, PyBullet waypoint execution, and structured run summaries — with event-driven telemetry and replay in a canvas operator UI.
-`Python · PyBullet · FastAPI · Angular · A* · YOLO (optional)`
+**~1,335 req/s** batched vs **~510** unbatched (~2.6×) on a mock backend that isolates scheduler behavior from GPU compute. Scaling sweeps and bottleneck reports ship with the numbers.
 
-### ModelOps Control Plane
-Separates experiment namespaces from production, enforces explicit artifact promotion, preserves lineage, and ties serving revisions to operational telemetry and rollback.
+`Python` `FastAPI` `vLLM` `OpenTelemetry`
+
+</td><td width="50%" valign="top">
+
+### ⚙ Agentic AI Platform
+Governed execution engine: plan → execute → validate → policy → approval, with typed tool contracts and durable, replayable runs.
+
+Schema-bounded NL-to-SQL runs parameterized and read-only; query text, parameters, row counts, latency, and policy outcomes all persist as auditable tool calls.
+
+`Python` `FastAPI` `Pydantic` `PostgreSQL`
+
+</td></tr>
+<tr><td width="50%" valign="top">
+
+### ⚙ AutonomyOS
+Mission-to-execution autonomy pipeline — planning, perception, inflated occupancy grids, A\* navigation, PyBullet execution, event-driven telemetry with replay in an operator UI.
+
+`Python` `PyBullet` `FastAPI` `Angular`
+
+</td><td width="50%" valign="top">
+
+### ⚙ ModelOps Control Plane
+Separates experiment namespaces from production, enforces explicit artifact promotion, preserves lineage, ties serving revisions to telemetry and rollback.
+
+`Python` `MLflow` `Kubernetes`
+
+</td></tr>
+</table>
+
+---
+
+## Stack
+
+<details>
+<summary><b>LLM infrastructure</b></summary>
+
+PyTorch · vLLM · SGLang · model serving · KV caching · continuous batching · quantization · distributed inference · request scheduling and admission control · inference benchmarking
+
+</details>
+
+<details>
+<summary><b>Applied AI</b></summary>
+
+LangGraph multi-agent orchestration · Model Context Protocol (FastMCP) · RAG and hybrid retrieval · reranking · NL-to-SQL · guardrails · LLM evaluation (golden datasets, LLM-as-judge, grounding and faithfulness scoring, MLflow regression gates) · LiteLLM · Databricks Model Serving
+
+</details>
+
+<details>
+<summary><b>Backend & distributed</b></summary>
+
+Python · Java · Go · Rust · TypeScript · FastAPI · Spring Boot · Node.js · Kafka · PostgreSQL · Redis · MongoDB · REST · gRPC · GraphQL · OAuth 2.1/OIDC · Keycloak · RBAC
+
+</details>
+
+<details>
+<summary><b>Data & platform</b></summary>
+
+Databricks · PySpark · Delta Lake · Unity Catalog · Airflow · BigQuery · Snowflake · H3 geospatial indexing · Kubernetes (GKE/EKS) · Docker · Terraform · AWS · GCP · Azure · OpenTelemetry · Prometheus · Grafana
+
+</details>
 
 ---
 
 ## Writing
 
-Essays on execution semantics, production LLM orchestration, and RAG failure modes — [veerapareddy.dev](https://veerapareddy.dev).
+Essays on execution semantics, production LLM orchestration, and RAG failure modes — **[veerapareddy.dev](https://veerapareddy.dev)**
 
-## Credentials
-
-B.E. Electrical & Electronics Engineering, Anna University · Stanford University AI Professional Program (2025: Machine Learning, Reinforcement Learning, Natural Language Understanding) · NVIDIA Certified Professional: Agentic AI · Databricks Certified Generative AI Engineer Associate · Apollo GraphQL Graph Developer
-
----
-
-Open to Senior/Staff roles in AI Systems, LLM Infrastructure, ML Infrastructure, AI Platform, and Forward-Deployed AI Engineering.
+<sub>B.E. EEE, Anna University · Stanford AI Professional Program 2025 · NVIDIA Certified Professional: Agentic AI · Databricks Certified Generative AI Engineer Associate</sub>
